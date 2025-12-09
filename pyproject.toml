@@ -1,0 +1,17 @@
+[project]
+name = "garbled-text-generator"
+description = "一个用于生成乱码的工具。"
+authors = [
+    {name = "白霜渡鸦_Corvus"}
+]
+version = "1.0.0"
+
+[build-system]
+requires = ["pyinstaller"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyinstaller = "^5.13"
+pynput = "^1.7"
+pyperclip = "^1.8"
